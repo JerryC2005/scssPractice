@@ -1,0 +1,10 @@
+$primaryBtn: rgb(12, 220, 202);
+$textColor: rgb(0, 0, 0);
+
+@import "./header.scss";
+
+.contact {
+  @extend header;
+  background-color: salmon;
+  width: 100%-30%;
+}
